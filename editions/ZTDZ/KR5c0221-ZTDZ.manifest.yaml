@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5c0221/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0221/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 嵩山太無先生氣經
+  date: '2015-08-29 00:54:39.101377'
+  source:
+    repository: kanripo
+    path: KR5c0221
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0221_000-ZTDZ.yaml, hash: 'sha256:966780d488f07841670af76c60ea97f29d17f176572133702151a649b94c9948'}
+  - {seq: 1, filename: KR5c0221_001-ZTDZ.yaml, hash: 'sha256:a9351558a2550167828b7141388fbfa46f3a95fa99d91c1802e239e447c0dc9c'}
+  - {seq: 2, filename: KR5c0221_002-ZTDZ.yaml, hash: 'sha256:a7b9dd0913a56e91bdb1354685546c669befff2fcd027a37164659d4ab4e83f1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0221_000-ZTDZ.markers.yaml, hash: 'sha256:f6d5873366b6f384e88fdcc7cc9948443ce36ecfe7b2790533bc1d55c2984f87'}
+  - {seq: 1, role: markers, filename: assets/KR5c0221_001-ZTDZ.markers.yaml, hash: 'sha256:8b0509baae9a283e95985d5c4407e03dd3dfe0a0b1eda9c24fb0d79a79a5b6a7'}
+  - {seq: 2, role: markers, filename: assets/KR5c0221_002-ZTDZ.markers.yaml, hash: 'sha256:8a1359f30731668afb3173a5f6b199d68b6181558cb5e820e49a3fb7ade1779e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 0
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5c0221_SJB_001-180418a
+    span:
+    - body
+    - 0
+    - 4276
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0221_SJB_002-180423a
+    span:
+    - body
+    - 0
+    - 1056
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:5d4b069fec5168d0fe674c9e9122edeeb3ddaf03baec887c98f6b614eeb754ae
